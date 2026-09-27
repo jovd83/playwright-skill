@@ -35,14 +35,10 @@ Do not load every guide by default. Read only the subskill and reference files t
 - Do not duplicate deep implementation guidance that already lives in a focused subskill.
 - Do not treat this repository as shared-memory infrastructure. If durable cross-agent knowledge is needed beyond one repo or skill, integrate an external shared-memory skill instead of storing it here implicitly.
 
-## Dispatcher Integration
+## Working With Other Skills
 
-Use `skill-dispatcher` as the primary integration layer whenever this package needs help from another skill or when a broader orchestrator is deciding whether Playwright is the right execution layer.
-
-- Prefer dispatcher-led routing by intent, especially for tasks such as `implement_ui_confirmation_test`, `render_test_artifact`, and `generate_test_data`.
 - Prefer the repository's native browser automation stack over Playwright when repo evidence points elsewhere.
-- Use Playwright as the default browser automation choice only when the repository supports it already, the user asks for it, or dispatcher policy explicitly selects it.
-- Treat direct paths to sibling skills as a compatibility fallback, not as the primary routing contract.
+- Use Playwright as the default browser automation choice only when the repository supports it already or the user asks for it.
 
 ## Routing Map
 
