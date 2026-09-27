@@ -1,6 +1,6 @@
 ---
 name: playwright-documentation-bdd
-description: Legacy Playwright-specific alias for BDD case formatting. Prefer the standalone `test-artifact-export-skill` skill for Gherkin, BDD, and export-ready case rendering, and use this only when Playwright-local conventions must be preserved explicitly.
+description: Legacy Playwright-specific alias for BDD case formatting. Prefer the standalone `test-management-sync` skill for Gherkin, BDD, and export-ready case rendering, and use this only when Playwright-local conventions must be preserved explicitly.
 metadata:
   author: jovd83
   version: 2.0.0

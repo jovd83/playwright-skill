@@ -1,6 +1,6 @@
 ---
 name: playwright-documentation-tdd
-description: Legacy Playwright-specific alias for TDD-style case documentation. Prefer the standalone `test-artifact-export-skill` skill for formatting approved test cases or building export-ready artifacts, and use this only when Playwright-local conventions must be preserved explicitly.
+description: Legacy Playwright-specific alias for TDD-style case documentation. Prefer the standalone `test-management-sync` skill for formatting approved test cases or building export-ready artifacts, and use this only when Playwright-local conventions must be preserved explicitly.
 metadata:
   author: jovd83
   version: 2.0.0

@@ -1,6 +1,6 @@
 ---
 name: playwright-documentation-plaintext
-description: Legacy Playwright-specific alias for plain-text case formatting. Prefer the standalone `test-artifact-export-skill` skill for lightweight narrative case output, and use this only when Playwright-local conventions must be preserved explicitly.
+description: Legacy Playwright-specific alias for plain-text case formatting. Prefer the standalone `test-management-sync` skill for lightweight narrative case output, and use this only when Playwright-local conventions must be preserved explicitly.
 metadata:
   author: jovd83
   version: 2.0.0

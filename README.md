@@ -1,6 +1,6 @@
 # Playwright Agent Skills
 
-[![Version](https://img.shields.io/badge/version-1.4.0-blue.svg)](CHANGELOG.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Validate Skills](https://github.com/jovd83/Playwright-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/jovd83/Playwright-skill/actions/workflows/ci.yml) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jovd83)
+[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](CHANGELOG.md) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Validate Skills](https://github.com/jovd83/Playwright-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/jovd83/Playwright-skill/actions/workflows/ci.yml) [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jovd83)
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Enterprise-grade Playwright skills for AI coding assistants. This repository packages focused `SKILL.md` entrypoints, reusable reference guides, and deterministic handoff tooling for teams that want Playwright help to feel consistent, installable, and maintainable instead of prompt-fragile.
@@ -39,7 +39,7 @@ Focused work should move quickly into a specialized subskill:
 | Coverage planning | [`coverage_plan/`](coverage_plan/) | Generating, reviewing, or synchronizing coverage plans |
 | Documentation | [`documentation/`](documentation/) | Producing TDD, BDD, plain-text, code-doc, root-cause, or handoff artifacts |
 | Stakeholder reporting | [`reporting/`](reporting/) | Summarizing outcomes for non-technical audiences |
-| Test-management integrations | [`transformers/`](transformers/), [`mappers/`](mappers/), [`reporters/`](reporters/) | Working with TestRail, Xray, Zephyr, or TestLink |
+| Test-management integrations | the standalone `test-management-sync` skill | Exporting cases, mapping IDs and publishing results for TestRail, Xray, Zephyr, or TestLink |
 | IDE setup | [`installers/`](installers/) | Installing or aligning editor-specific workflows |
 
 ## Architecture Boundaries
@@ -100,7 +100,6 @@ The following areas are optional extensions:
 
 - `analysis/` and `coverage_plan/` for requirements-driven planning
 - `documentation/` for test-case artifacts, code documentation, root-cause reports, handovers, and live session-state
-- `transformers/`, `mappers/`, and `reporters/` for enterprise test-management systems
 - `installers/` and `reporting/` for environment-specific setup and stakeholder communication
 
 See [`reports/skill-inventory.md`](reports/skill-inventory.md) for a generated inventory of every skill, its area, and metadata coverage.

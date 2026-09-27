@@ -14,16 +14,13 @@ on:
       - "coverage_plan/**"
       - "documentation/**"
       - "installers/**"
-      - "mappers/**"
       - "migration/**"
       - "orchestrator/**"
       - "playwright-cli/**"
       - "pom/**"
       - "reports/**"
-      - "reporters/**"
       - "reporting/**"
       - "scripts/**"
-      - "transformers/**"
   pull_request:
     paths:
       - ".github/workflows/validate-skills.yml"
@@ -37,16 +34,13 @@ on:
       - "coverage_plan/**"
       - "documentation/**"
       - "installers/**"
-      - "mappers/**"
       - "migration/**"
       - "orchestrator/**"
       - "playwright-cli/**"
       - "pom/**"
       - "reports/**"
-      - "reporters/**"
       - "reporting/**"
       - "scripts/**"
-      - "transformers/**"
 
 jobs:
   validate:

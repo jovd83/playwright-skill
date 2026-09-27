@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2026-09-27
+
+### Removed
+- `transformers/`, `mappers/` and `reporters/` for TestRail, Xray, Zephyr and TestLink (12 sub-skills). They were near-identical copies of the same work in the Playwright, Cypress and Rest Assured packs. Exporting cases, mapping tool IDs back into tests, and publishing results now live in the standalone `test-management-sync` skill (formerly `test-artifact-export-skill`).
+
+### Changed
+- Routing names `test-management-sync` directly, instead of going through the retired skill-dispatcher with a hard-coded `C:\projects\skills\...` fallback path.
+- The legacy test-case formatting aliases point to `test-management-sync`.
+- Version markers reconciled: the README badge said 1.4.0 while SKILL.md and this changelog were at 2.1.1.
+
 ## [2.1.1] - 2026-04-30
 
 ### Changed

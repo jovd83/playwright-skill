@@ -36,11 +36,11 @@ Use this skill when the user asks for Playwright help but the exact workflow is 
 | drive a browser from the terminal | [../playwright-cli/SKILL.md](../playwright-cli/SKILL.md) |
 | derive requirements from tickets or specs | [../analysis/SKILL.md](../analysis/SKILL.md) |
 | produce or refine a coverage plan | [../coverage_plan/generation/SKILL.md](../coverage_plan/generation/SKILL.md) and [../coverage_plan/review/SKILL.md](../coverage_plan/review/SKILL.md) |
-| write test documentation or convert case formats | dispatch `render_test_artifact` through `skill-dispatcher`, or fall back to `C:\projects\skills\test-artifact-export-skill\SKILL.md` |
+| write test documentation or convert case formats | the `test-management-sync` skill (export job) |
 | investigate failures | [../documentation/root_cause/SKILL.md](../documentation/root_cause/SKILL.md) |
 | create handoff or resume-state artifacts | [../documentation/handover/SKILL.md](../documentation/handover/SKILL.md) and [../documentation/session-state/SKILL.md](../documentation/session-state/SKILL.md) |
-| export test cases to external test-management systems | dispatch `render_test_artifact` through `skill-dispatcher`, or fall back to `C:\projects\skills\test-artifact-export-skill\SKILL.md` |
-| report execution to external test-management systems | the relevant [../mappers/](../mappers/), or [../reporters/](../reporters/) subskill |
+| export test cases to external test-management systems | the `test-management-sync` skill (export job) |
+| map tool IDs into tests or report execution to external test-management systems | the `test-management-sync` skill (map-IDs and publish-results jobs) |
 
 ## Execution Contract
 
