@@ -1,6 +1,6 @@
 ---
 name: playwright-ci
-description: CI and delivery skill for Playwright automation. Use when Codex needs to design, debug, or optimize Playwright execution in GitHub Actions, GitLab CI, CircleCI, Azure DevOps, Jenkins, Docker, sharded pipelines, artifact workflows, or shared setup and teardown.
+description: CI and delivery skill for Playwright automation. Use when the agent needs to design, debug, or optimize Playwright execution in GitHub Actions, GitLab CI, CircleCI, Azure DevOps, Jenkins, Docker, sharded pipelines, artifact workflows, or shared setup and teardown.
 metadata:
   author: jovd83
   version: 2.0.0

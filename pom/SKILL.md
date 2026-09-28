@@ -1,6 +1,6 @@
 ---
 name: playwright-pom
-description: Test-architecture skill for Playwright page objects, fixtures, and helpers. Use when Codex needs to decide whether to introduce a Page Object Model, how to structure page objects, and how to separate browser state, UI behavior, and stateless utilities cleanly.
+description: Test-architecture skill for Playwright page objects, fixtures, and helpers. Use when the agent needs to decide whether to introduce a Page Object Model, how to structure page objects, and how to separate browser state, UI behavior, and stateless utilities cleanly.
 metadata:
   author: jovd83
   version: 2.0.0

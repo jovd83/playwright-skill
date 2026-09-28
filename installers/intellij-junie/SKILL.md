@@ -1,6 +1,6 @@
 ---
 name: playwright-installer-intellij-junie
-description: Editor-setup skill for Playwright plus Junie in IntelliJ IDEA. Use when Codex needs to help configure an IntelliJ-based Playwright workflow with the Junie assistant and verify the environment is ready for authoring and running tests.
+description: Editor-setup skill for Playwright plus Junie in IntelliJ IDEA. Use when the agent needs to help configure an IntelliJ-based Playwright workflow with the Junie assistant and verify the environment is ready for authoring and running tests.
 metadata:
   author: jovd83
   version: 2.0.0

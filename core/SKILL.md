@@ -1,6 +1,6 @@
 ---
 name: playwright-core
-description: Core Playwright implementation skill for resilient test authoring and debugging. Use when Codex needs practical Playwright guidance for locators, assertions, fixtures, authentication, network behavior, API testing, component testing, debugging, framework-specific recipes, or broader test architecture decisions.
+description: Core Playwright implementation skill for resilient test authoring and debugging. Use when the agent needs practical Playwright guidance for locators, assertions, fixtures, authentication, network behavior, API testing, component testing, debugging, framework-specific recipes, or broader test architecture decisions.
 metadata:
   author: jovd83
   version: 2.0.0

@@ -1,6 +1,6 @@
 ---
 name: playwright-coverage-plan-generation
-description: Coverage-planning skill for Playwright work. Use when Codex needs to turn confirmed requirements into a structured, risk-aware Playwright coverage plan with scenarios, execution types, priorities, and traceability.
+description: Coverage-planning skill for Playwright work. Use when the agent needs to turn confirmed requirements into a structured, risk-aware Playwright coverage plan with scenarios, execution types, priorities, and traceability.
 metadata:
   author: jovd83
   version: 2.0.0

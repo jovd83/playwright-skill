@@ -1,6 +1,6 @@
 ---
 name: playwright-migration
-description: Migration skill for moving existing UI automation to Playwright. Use when Codex needs to translate Cypress or Selenium/WebDriver patterns, plan incremental migration, preserve coverage during framework change, or explain architectural differences that affect the suite design.
+description: Migration skill for moving existing UI automation to Playwright. Use when the agent needs to translate Cypress or Selenium/WebDriver patterns, plan incremental migration, preserve coverage during framework change, or explain architectural differences that affect the suite design.
 metadata:
   author: jovd83
   version: 2.0.0

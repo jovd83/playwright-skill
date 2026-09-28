@@ -1,6 +1,6 @@
 ---
 name: playwright-coverage-matrix-auto-sync
-description: Coverage-maintenance skill for Playwright planning and documentation. Use when Codex needs to synchronize coverage plans, scenario IDs, traceability links, and summary counts after tests, requirements, or narrative test documents change.
+description: Coverage-maintenance skill for Playwright planning and documentation. Use when the agent needs to synchronize coverage plans, scenario IDs, traceability links, and summary counts after tests, requirements, or narrative test documents change.
 metadata:
   author: jovd83
   version: 2.0.0

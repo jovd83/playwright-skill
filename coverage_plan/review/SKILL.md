@@ -1,6 +1,6 @@
 ---
 name: playwright-coverage-plan-review
-description: Coverage-plan review skill for Playwright work. Use when Codex needs to present a proposed coverage plan, surface assumptions and tradeoffs, collect user feedback, and secure explicit approval before large implementation or documentation work.
+description: Coverage-plan review skill for Playwright work. Use when the agent needs to present a proposed coverage plan, surface assumptions and tradeoffs, collect user feedback, and secure explicit approval before large implementation or documentation work.
 metadata:
   author: jovd83
   version: 2.0.0
